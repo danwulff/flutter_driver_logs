@@ -1,5 +1,5 @@
 import 'package:flutter_driver/flutter_driver.dart';
-import 'package:flutter_test/flutter_test.dart';
+import 'package:test/test.dart';
 
 void main() {
   group('Basic Test', () {
@@ -17,7 +17,7 @@ void main() {
       }
     });
 
-    test('hello', () async {
+    test('hello', () {
       print('hello world');
     });
   });
